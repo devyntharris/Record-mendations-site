@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+main {
+    padding: 2rem;
+    background-color: white;
+    max-width: 75%;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-family: "marion-standard", sans-serif;
+}
+
+h1 {
+    font-family: r41-stop-uppercase, sans-serif;
+    font-size: 45px;
+    margin: 0 0 1rem 0;
+    color: #97383e;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.bio-image {
+    img {
+        float: left;
+        width: 25%;
+        min-width: 300px;
+        height: auto;
+        margin: 0 1.5rem 1.5rem 0;
+        box-shadow: 0 0 15px 0 black;
+    }
+}
+
+.top-text {
+    margin: 0 0 1rem 0;
+}
+
+.bottom-text {
+    margin: 0 0 1rem 0;
+}
+
+b {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 1.5rem;
+    line-height: 1.6;
+}

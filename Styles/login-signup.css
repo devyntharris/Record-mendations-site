@@ -1,0 +1,98 @@
+body {
+    font-family: "marion-standard", sans-serif;
+    background-color: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+    background-color: white;
+    /*max-width: 900px;*/
+    width: 75%;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "marion-standard", sans-serif;
+}
+section.login-signup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-wrapper {
+    border: 3px solid #97383e;
+    background: white;
+    padding: 30px;
+    margin: 0 2rem 2rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 30%;
+    min-width: 350px;
+}
+
+h1 {
+    font-family: r41-stop-uppercase, sans-serif;
+    font-size: 45px;
+    margin: 0 0 0.5rem 0;
+    color: #97383e;
+}
+
+p.header {
+    font-family: "pf-fuel-grime", sans-serif;
+    font-size: 30px;
+    margin: 0 0 2rem 0;
+}
+
+h2 {
+    font-family: "pf-fuel-decay", sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-family: "pf-fuel-grime", sans-serif;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form input {
+    font-family: "marion-standard", sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    font-family: "marion-standard", sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 12px;
+    background-color: #97383e;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b24650;
+}
+
+.switch-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch-link a {
+    color: #97383e;
+    text-decoration: none;
+}
