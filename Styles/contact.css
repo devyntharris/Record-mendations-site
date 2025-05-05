@@ -42,12 +42,13 @@ h1 {
     padding: 20px;
     margin: 30px auto;
     width: 75%;
+    min-width: 320px;
     text-align: left;
     background: #f9f9f9;
 }
 
 .contact-form h2 {
-    font-family: "pf-fuel-decay", sans-serif;
+    font-family: "pf-fuel-grime", sans-serif;
     font-size: 36px;
     border-bottom: 3px dotted #97383e;
     padding-bottom: 5px;
